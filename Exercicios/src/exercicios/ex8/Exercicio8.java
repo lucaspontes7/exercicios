@@ -1,4 +1,4 @@
-package exercicios.ex7;
+package exercicios.ex8;
 
 /**
  *

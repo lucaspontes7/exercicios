@@ -1,7 +1,7 @@
 package exercicios;
 
-import exercicios.ex7.Exercicio8;
-import exercicios.ex8.BinaryTree;
+import exercicios.ex8.Exercicio8;
+import exercicios.ex9.BinaryTree;
 
 /**
  *
@@ -23,28 +23,28 @@ public class Exercicios {
         return bt;
     }
 
-    static void exercicio8() {
+    static void exercicio9() {
         BinaryTree tree = createBinaryTree();
         int node = 4;
         int value = tree.sumNodeRecursive(node);
-        System.out.println("=========EXERCÍCIO 8=========");
+        System.out.println("=========EXERCÍCIO 9=========");
         System.out.println("Valor da soma de todos os nós subsequentes do nó "
                 + node + ": " + value);
     }
 
-    static void exercicio7() {
+    static void exercicio8() {
         Exercicio8 criarNumeroC = new Exercicio8();
         Integer numeroA = 1144;
         Integer numeroB = 22;
         Integer numeroC = criarNumeroC.createNumberC(numeroA, numeroB);
-        System.out.println("=========EXERCÍCIO 7=========");
+        System.out.println("=========EXERCÍCIO 8=========");
         System.out.println("Número A: " + numeroA + "\nNúmero B: " + numeroB
                 + "\nNúmero C: " + numeroC);
 
     }
 
     public static void main(String[] args) {
-        exercicio7();
         exercicio8();
+        exercicio9();
     }
 }
